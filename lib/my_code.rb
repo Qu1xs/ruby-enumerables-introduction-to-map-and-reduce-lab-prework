@@ -43,7 +43,7 @@ end
 def reduce_to_total(source_array, starting_point)
   i = 0
   sum = 0
-  if (defined?(starting_point))
+  if (defined?(starting_point) != 'nil')
     sum = starting_point
   end
   while i < source_array.length do
