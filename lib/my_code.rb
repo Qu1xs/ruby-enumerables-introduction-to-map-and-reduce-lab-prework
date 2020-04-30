@@ -42,9 +42,9 @@ end
 def reduce_to_total(source_array, starting_point)
   i = 0
   if (defined?(starting_point)).nil?
-    starting_point = starting_point
-  else
     starting_point = 0
+  else
+    starting_point = starting_point
   end 
   sum = 0 + starting_point
   while i < source_array.length do
