@@ -55,7 +55,6 @@ def reduce_to_all_true(source_array)
   new = []
   i = 0
   while i < source_array.length do
-    new.push( source_array[i] = 1 )
     if source_array[i] = false
       return false
     end
