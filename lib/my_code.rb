@@ -41,7 +41,7 @@ end
 
 def reduce_to_total(source_array, starting_point)
   i = 0
-  if (defined?(starting_point)).nil? # will now return true or false
+  if (defined?(starting_point)).nil?
     starting_point = starting_point
   else
     starting_point = 0
